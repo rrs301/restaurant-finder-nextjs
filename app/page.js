@@ -80,8 +80,8 @@ export default function Home() {
         {!loading?  <BusinessList businessList={businessList} />
           :
           <div className='flex gap-3'>
-          {[1,2,3,4,5].map(item=>(
-              <SkeltonLoading/>
+          {[1,2,3,4,5].map((item,index)=>(
+              <SkeltonLoading key={index} />
           ))}
           </div>
           }
