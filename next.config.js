@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode:false,
-    output: 'export',
     unoptimized: true,
     images:{
         domains:['lh3.googleusercontent.com','maps.googleapis.com']
